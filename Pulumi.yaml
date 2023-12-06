@@ -1,0 +1,3 @@
+name: pulumi-re-cluster
+description: Redis Enterprise Cluster
+runtime: nodejs
