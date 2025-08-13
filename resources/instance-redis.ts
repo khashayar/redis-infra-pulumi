@@ -8,7 +8,7 @@ export const instanceRedis = async (vpc: Vpc, sg: SecurityGroup, keyPair: KeyPai
   const ami = getAmiOutput({
     filters: [{
       name: 'name',
-      values: ['ubuntu/images/hvm-ssd/ubuntu-focal*'],
+      values: ['ubuntu/images/hvm-ssd/ubuntu-jammy*'],
     }, {
       name: 'architecture',
       values: ['x86_64']
